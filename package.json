@@ -1,6 +1,6 @@
 {
-	"name": "@sheikhaminul/storage-sync-lite",
-	"version": "1.0.10",
+	"name": "storage-sync-lite",
+	"version": "1.0.11",
 	"description": "Easily store objects or any type of data to localStorage or sessionStorage.",
 	"main": "lib/index.js",
 	"types": "lib/index.d.ts",
@@ -32,9 +32,6 @@
 	"files": [
 		"lib/**/*"
 	],
-	"publishConfig": {
-		"@sheikhaminul:registry": "https://npm.pkg.github.com/"
-	},
 	"homepage": "https://github.com/SheikhAminul/storage-sync-lite#readme",
 	"devDependencies": {
 		"typescript": "^4.8.4"
