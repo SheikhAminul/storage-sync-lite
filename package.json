@@ -1,0 +1,40 @@
+{
+	"name": "storage-sync-lite",
+	"version": "1.0.3",
+	"description": "Easily store objects or any type of data to localStorage or sessionStorage.",
+	"main": "lib/index.js",
+	"types": "lib/index.d.ts",
+	"scripts": {
+		"build": "tsc",
+		"publish": "npm run build && npm version patch && npm publish"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/SheikhAminul/storage-sync-lite.git"
+	},
+	"keywords": [
+		"localStorage",
+		"sessionStorage",
+		"getLocal",
+		"setLocal",
+		"getSession",
+		"setSession",
+		"browser",
+		"sync",
+		"storage",
+		"clearLocal",
+		"clearSession"
+	],
+	"author": "Sheikh Aminul <aminulfse@gmail.com>",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/SheikhAminul/storage-sync-lite/issues"
+	},
+	"files": [
+		"lib/**/*"
+	],
+	"homepage": "https://github.com/SheikhAminul/storage-sync-lite#readme",
+	"devDependencies": {
+		"typescript": "^4.8.4"
+	}
+}
