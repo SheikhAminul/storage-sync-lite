@@ -1,7 +1,7 @@
 storage-sync-lite<br>
 [![NPM Version](https://img.shields.io/npm/v/storage-sync-lite.svg?branch=main)](https://www.npmjs.com/package/storage-sync-lite)
 [![Install Size](https://badgen.net/packagephobia/install/storage-sync-lite)](https://packagephobia.now.sh/result?p=storage-sync-lite)
-[![Downloads Per Week](https://img.shields.io/npm/dw/storage-sync-lite.svg?color=blue)](https://www.npmjs.com/package/storage-sync-lite)
+[![Downloads Per Week](https://img.shields.io/npm/dw/storage-sync-lite.svg?color=green)](https://www.npmjs.com/package/storage-sync-lite)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 ================
 
