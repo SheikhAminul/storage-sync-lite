@@ -32,6 +32,9 @@
 	"files": [
 		"lib/**/*"
 	],
+	"publishConfig": {
+		"@SheikhAminul:registry": "https://npm.pkg.github.com"
+	},
 	"homepage": "https://github.com/SheikhAminul/storage-sync-lite#readme",
 	"devDependencies": {
 		"typescript": "^4.8.4"
