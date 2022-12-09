@@ -100,7 +100,7 @@ console.log(getSession('user')) // Returns: { email: 'user@example.com', age: 25
 
 Delete data from session:
 ```javascript
-import { deleteSession, clearSession } from 'index'
+import { deleteSession, clearSession } from 'storage-sync-lite'
 
 // Delete single data from session
 deleteSession('user')
