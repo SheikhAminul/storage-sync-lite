@@ -14,6 +14,7 @@ Why this? When you store a JSON/object to localStorage or sessionStorage you nee
 -   [Features](#features)
 -   [Install](#install)
 -   [Usage](#usage)
+*   [Contributing](#contributing)
 -   [License](#license)
 -   [Author](#author)
 
@@ -108,6 +109,11 @@ deleteSession('user')
 // Clear / delete all data from session
 clearSession()
 ```
+
+
+## Contributing
+
+You are welcome to contribute! If you are adding a feature or fixing a bug, please contribute to the [GitHub repository](https://github.com/SheikhAminul/storage-sync-lite/).
 
 
 ## License
