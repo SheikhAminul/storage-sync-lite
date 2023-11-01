@@ -14,7 +14,8 @@ Why this? When you store a JSON/object to localStorage or sessionStorage you nee
 -   [Features](#features)
 -   [Install](#install)
 -   [Usage](#usage)
-*   [Contributing](#contributing)
+-   [API Reference](#API-Reference)
+-   [Contributing](#contributing)
 -   [License](#license)
 -   [Author](#author)
 
@@ -109,6 +110,86 @@ deleteSession('user')
 // Clear / delete all data from session
 clearSession()
 ```
+
+## API Reference
+
+### `setLocal(name, value, options)`
+
+Stores a value in local storage.
+
+- `name` (string): The name of the item to store.
+- `value` (*): The value to store.
+- `options` (object, optional): Optional configuration object.
+  - `options.expiration` (string | number | Date): The expiration date/time for the item.
+  - `options.timeToLive` (number): The time to live in milliseconds.
+
+Returns the stored value.
+
+### `getLocal(name)`
+
+Retrieves a value from local storage.
+
+- `name` (string): The name of the item to retrieve.
+
+Returns the value stored in local storage, or undefined if the item does not exist or has expired.
+
+### `changeLocal(name, changes)`
+
+Updates a value in local storage with the provided changes.
+
+- `name` (string): The name of the item to update.
+- `changes` (object): An object containing the changes to apply to the stored value.
+
+Returns the updated value.
+
+### `deleteLocal(name)`
+
+Deletes an item from local storage.
+
+- `name` (string): The name of the item to delete.
+
+### `clearLocal()`
+
+Clears all items from local storage.
+
+### `setSession(name, value, options)`
+
+Stores a value in session storage.
+
+- `name` (string): The name of the item to store.
+- `value` (*): The value to store.
+- `options` (object, optional): Optional configuration object.
+  - `options.expiration` (string | number | Date): The expiration date/time for the item.
+  - `options.timeToLive` (number): The time to live in milliseconds.
+
+Returns the stored value.
+
+### `getSession(name)`
+
+Retrieves a value from session storage.
+
+- `name` (string): The name of the item to retrieve.
+
+Returns the value stored in session storage, or undefined if the item does not exist or has expired.
+
+### `changeSession(name, changes)`
+
+Updates a value in session storage with the provided changes.
+
+- `name` (string): The name of the item to update.
+- `changes` (object): An object containing the changes to apply to the stored value.
+
+Returns the updated value.
+
+### `deleteSession(name)`
+
+Deletes an item from session storage.
+
+- `name` (string): The name of the item to delete.
+
+### `clearSession()`
+
+Clears all items from session storage.
 
 
 ## Contributing
